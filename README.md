@@ -1,4 +1,4 @@
-# Owlbear Rodeo — Dead
+# Dead
 
 A small Owlbear Rodeo extension that adds a **Dead** tool for character tokens.
 
@@ -36,30 +36,3 @@ In Owlbear Rodeo:
 http://localhost:5173/manifest.json
 
 5. Create/open a room and enable the extension for that room.
-
-## Build for hosting
-
-```bash
-npm install
-npm run build
-```
-
-The finished static site will be in `dist/`.
-
-Upload the contents of `dist/` to a static web host. The important URL is:
-
-https://YOUR-DOMAIN/manifest.json
-
-Then add that manifest URL to Owlbear Rodeo.
-
-## Change the extension ID
-
-Before publishing, replace:
-
-com.example.owlbear-dead
-
-in `src/main.js` with a unique reverse-domain identifier, for example:
-
-com.yourname.owlbear-dead
-
-This prevents metadata ID collisions with other extensions.
