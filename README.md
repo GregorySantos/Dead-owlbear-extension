@@ -1,9 +1,9 @@
 # Dead
 
-A small Owlbear Rodeo extension that adds a **Dead** tool for character tokens.
+A simple [Owlbear Rodeo](https://www.owlbear.rodeo/) extension that lets you quickly mark tokens with a red X on the Characters layer.
 
 ## Install
-In an OBR room, click the ⊕ "Add Extension" button (top right) and paste:
+In the Extensions menu, click the ⊕ "Add Custom Extension" button (top right) and paste:
 
 ```text
 https://dead-owlbear-extension.gregcanela.workers.dev/manifest.json
