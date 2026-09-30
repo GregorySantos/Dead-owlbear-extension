@@ -4,5 +4,6 @@
   "manifest_version": 1,
   "description": "Adds a red X to character tokens to mark them as dead.",
   "author": "gregcanela",
+  "homepage_url": "https://github.com/GregorySantos/Dead-owlbear-extension",
   "background_url": "/"
 }
