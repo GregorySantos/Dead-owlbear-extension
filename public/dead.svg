@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente para o X vermelho vibrante -->
+    <linearGradient id="redX" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B30" />
+      <stop offset="100%" stop-color="#C10000" />
+    </linearGradient>
+
+    <!-- Sombra para dar destaque ao X -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Grupo da Caveira (Base) -->
+  <g fill="#E2E8F0" stroke="#0F172A" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Cabeça da Caveira -->
+    <path d="M 128 220 
+             C 128 120, 384 120, 384 220 
+             C 384 280, 344 310, 328 350 
+             L 184 350 
+             C 168 310, 128 280, 128 220 Z" />
+    
+    <!-- Mandíbula / Dentes -->
+    <path d="M 192 350 L 192 390 C 192 400, 200 408, 210 408 L 302 408 C 312 408, 320 400, 320 390 L 320 350 Z" />
+    
+    <!-- Linhas dos Dentes -->
+    <line x1="224" y1="350" x2="224" y2="395" stroke="#0F172A" stroke-width="8" />
+    <line x1="256" y1="350" x2="256" y2="398" stroke="#0F172A" stroke-width="8" />
+    <line x1="288" y1="350" x2="288" y2="395" stroke="#0F172A" stroke-width="8" />
+
+    <!-- Cavidades Oculares -->
+    <ellipse cx="200" cy="230" rx="36" ry="44" fill="#0F172A" stroke="none" />
+    <ellipse cx="312" cy="230" rx="36" ry="44" fill="#0F172A" stroke="none" />
+
+    <!-- Cavidade do Nariz -->
+    <path d="M 256 270 L 244 295 L 268 295 Z" fill="#0F172A" stroke="none" />
+  </g>
+
+  <!-- O 'X' Vermelho de Morte (Sobreposto) -->
+  <g filter="url(#dropShadow)" stroke="url(#redX)" stroke-width="48" stroke-linecap="round">
+    <line x1="100" y1="100" x2="412" y2="412" />
+    <line x1="412" y1="100" x2="100" y2="412" />
+  </g>
+</svg>

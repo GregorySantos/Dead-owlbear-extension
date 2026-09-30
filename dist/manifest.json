@@ -1,0 +1,8 @@
+{
+  "name": "Dead",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Adds a red X to character tokens to mark them as dead.",
+  "author": "gregcanela",
+  "background_url": "/"
+}
