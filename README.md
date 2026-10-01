@@ -20,6 +20,7 @@ https://dead-owlbear-extension.gregcanela.workers.dev/manifest.json
 - The X follows the token when it is moved, rotated, or scaled
 - The dead state is stored in token metadata and syncs with the scene
 - Clicking the token again removes the X
+- Hidden tokens cannot be marked, even if they're on the Characters layer, to prevent players from finding them accidentally (or otherwise).
 
 ## License
 

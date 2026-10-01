@@ -2,7 +2,7 @@
   "name": "Dead",
   "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Adds a red X to character tokens to mark them as dead.",
+  "description": "Quickly add a red X to tokens on the Characters layer to mark them as dead.",
   "author": "gregcanela",
   "homepage_url": "https://github.com/GregorySantos/Dead-owlbear-extension",
   "icon": "/dead.svg",
